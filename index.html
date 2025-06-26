@@ -39,13 +39,13 @@
           <section class="w-full md:w-3/4">
             <div class="sticky top-24">
                  <!-- Exterior Image -->
-                <div class="h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
+                <div class="h-96  flex items-center justify-center overflow-hidden mb-4">
                   <img src="./images/model-y-deep-blue-metallic.jpg" alt="tesla" id="exteriorImage" class="max-w-full h-auto transform scale-125">
                 </div>
 
                 <!-- Interior Image -->
-                <div class="h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
-                  <img src="./images/model-y-interior-dark.jpg" alt="tesla" id="exteriorImage" class="max-w-full h-auto transform scale-125">
+                <div class="h-96 flex items-center justify-center overflow-hidden mb-4">
+                  <img src="./images/model-y-interior-dark.jpg" alt="tesla" id="interiorImage" class="max-w-full h-auto transform scale-125">
                 </div>
             </div>
           </section>
@@ -59,7 +59,7 @@
                <div class="my-8" id="exterior-buttons">
                   <h3 class="font-semibold mb-2">Exterior Color</h3>
                   <div class="flex space-x-4">
-                     <button class="btn-selected transition-transform duration-300 hover:scale-110 cursor-pointer">
+                     <button class="button_selected transition-transform duration-300 hover:scale-110 cursor-pointer">
                         <img src="./images/button-stealth-grey.avif" alt="Stealh Grey" class="w-20">
                      </button>
                     <button class="transition-transform duration-300 hover:scale-110 cursor-pointer">
@@ -83,7 +83,7 @@
                    <div class="my-8 " id="interior-buttons">
                       <h3 class="font-semibold mb-2">Interior Color</h3>
                       <div class="flex space-x-4">
-                     <button class="btn-selected transition-transform duration-300 hover:scale-110 cursor-pointer">
+                     <button class="button_selected transition-transform duration-300 hover:scale-110 cursor-pointer">
                         <img src="./images/button-dark.avif" alt="Dark" class="w-12">
                      </button>
                      <button class="transition-transform duration-300 hover:scale-110 cursor-pointer">
@@ -95,12 +95,16 @@
                <!-- Wheel Buttons -->
                 <div class="mb-8" id="wheel-buttons">
                     <h3 class="font-semibold mb-2">Wheels</h3>
-                    <button class="w-full py-4 mb-2 bg-gray-700 hover:bg-gray-500 text-white rounded-lg transition-colors duration-300">
-                         Standard Wheels
-                    </button>
-                    <button class="w-full py-4 mb-2 bg-gray-200 hover:bg-gray-600 hover:text-white rounded-lg transition-colors duration-300">
-                         Performance Wheels  (+$2,500)
-                    </button>
+                    <button
+                        class="w-full py-4 mb-2 bg-gray-700 hover:bg-gray-600 hover:text-white text-white rounded-lg transition-colors duration-300"
+                     >
+                        Standard Wheels
+                     </button>
+                     <button
+                        class="w-full py-4 mb-2 bg-gray-200 hover:bg-gray-600 hover:text-white rounded-lg transition-colors duration-300"
+                     >
+                        Performance Wheels (+$2,500)
+                     </button>
                 </div>
 
                 <!-- Full Self Driving Option -->
